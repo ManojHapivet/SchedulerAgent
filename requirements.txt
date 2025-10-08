@@ -1,8 +1,8 @@
 # Hospital Scheduling System - Azure Functions Dependencies
 
 # Azure Functions
-azure-functions>=1.18.0
-azure-functions-worker>=1.2.0
+azure-functions
+azure-functions-worker
 
 # Core FastAPI stack (for HTTP triggers)
 fastapi>=0.104.0
