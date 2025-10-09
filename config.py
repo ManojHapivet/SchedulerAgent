@@ -5,22 +5,6 @@ Store test credentials and API endpoints
 
 import os
 
-# Production credentials - Use environment variables in production
-PRODUCTION_CREDENTIALS = {
-    "email": "sailokesh7780@gmail.com",
-    "password": os.environ.get("PRODUCTION_PASSWORD", "Password@123"),
-    "tenant_domain": None,
-    "location_id": None
-}
-
-# Production tenant configuration - Happy Paws Veterinary Clinic
-PRODUCTION_TENANT = {
-    "tenant_id": "a9872e13-f580-400d-ad81-489a92f4ca56",
-    "tenant_name": "Happy Paws Veterinary Clinic new",
-    "location_id": "1b86f045-a2c3-43f2-adbf-6e60703ad352", 
-    "location_name": "Happy Paws Main Branch"
-}
-
 # API Endpoints (Azure Functions compatible)
 API_ENDPOINTS = {
     "auth_base_url": os.environ.get("AUTH_BASE_URL", "https://dev-hv-auth.azurewebsites.net"),
@@ -49,7 +33,7 @@ HOSPITAL_API_ENDPOINTS = {
 OPENAI_CONFIG = {
     "model": "gpt-4o-mini",
     "temperature": 0.1,
-    "api_key": os.environ.get("OPENAI_API_KEY", "your-openai-api-key-here")
+    "api_key": os.environ.get("OPENAI_API_KEY")
 }
 
 # Request timeout settings
