@@ -4,7 +4,7 @@
     "AzureWebJobsStorage": "UseDevelopmentStorage=true",
     "FUNCTIONS_WORKER_RUNTIME": "python",
     "OPENAI_API_KEY": "your-openai-api-key-here",
-    "AUTH_BASE_URL": "https://dev-hv-auth.azurewebsites.net",
-    "SCHEDULER_BASE_URL": "https://dev-hapivet-sch.azurewebsites.net"
+    "AUTH_BASE_URL": "https://your-auth-service.azurewebsites.net",
+    "SCHEDULER_BASE_URL": "https://your-scheduler-service.azurewebsites.net"
   }
 }
