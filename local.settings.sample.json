@@ -1,0 +1,8 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "<your-storage-connection-string-or-placeholder>",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "MY_API_KEY": "<placeholder-for-api-key>"
+  }
+}
