@@ -17,7 +17,7 @@ scheduler/
 ├── services/                   # External integrations (shared)
 ├── models/                     # Data models (shared)
 ├── host.json                   # Functions runtime config
-├── local.settings.json         # Local development settings
+├── local.settings.sample.json  # Sample local development settings (copy to local.settings.json)
 └── requirements.txt            # Azure Functions dependencies
 ```
 
@@ -64,6 +64,11 @@ pip install -r requirements.txt
 
 #### 3. **Local Testing**
 ```bash
+# Copy the sample settings file and configure with your values
+cp local.settings.sample.json local.settings.json
+# Edit local.settings.json with your actual API keys and URLs
+
+# Start the functions locally
 func start
 ```
 

@@ -34,11 +34,11 @@ models/
 
 ### ⚙️ Configuration & Setup
 ```
-📄 host.json             # Azure Functions runtime config
-📄 requirements.txt      # Python dependencies (Azure Functions optimized)
-📄 local.settings.json   # Local development environment variables
-📄 config.py            # Application configuration with env variables
-📄 serverless_main.py    # Unified entry point for both local & Azure
+📄 host.json                  # Azure Functions runtime config
+📄 requirements.txt           # Python dependencies (Azure Functions optimized)
+📄 local.settings.sample.json # Sample local settings (copy to local.settings.json for local dev)
+📄 config.py                  # Application configuration with env variables
+📄 serverless_main.py         # Unified entry point for both local & Azure
 ```
 
 ### 🧪 Testing & Development  
